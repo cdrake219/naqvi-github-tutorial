@@ -84,10 +84,10 @@ graph export "./figures/region_cases.png", replace wid(1000)
 twoway (scatter new_deaths_ma7 new_cases_ma7, mc(%10) ms(vsmall)), xtitle("New deaths (7 day M-A)") ytitle("New cases (7 day M-A)") 
 graph export "./figures/scatter_cases_deaths.png", replace wid(1000)
 
-twoway (scatter new_cases_ma7 new_deaths_ma7, mc(pink%10) ms(vsmall)), xtitle("New cases (7 day M-A)") ytitle("New deaths (7 day M-A)") 
+twoway (scatter new_cases_ma7 new_deaths_ma7, mc(red%10) ms(vsmall)), xtitle("New cases (7 day M-A)") ytitle("New deaths (7 day M-A)") 
 graph export "./figures/scatter_deaths_cases.png", replace wid(1000)
 
-/// GITHUB SETUP ///
+/// GITHUB SYNC ///
 
 * Initialize
 
